@@ -60,7 +60,6 @@ public class AutoUpdateService extends Service {
                         editor.apply();
                     }
                 }
-
                 @Override
                 public void onFailure(Call call, IOException e) {
                     e.printStackTrace();
